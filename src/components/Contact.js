@@ -23,9 +23,13 @@ class Contact extends Component {
             </a>
             <ul className="social__container">
               {data.social.map((link, index) => (
-                <li key={index}>
+                <li className="social__icons" key={index}>
                   <a target="_blank" rel="noopener noreferrer" href={link.url}>
-                    {link.name}
+                    {link.icon === null ? (
+                      <i className={`fas fa-file-pdf fa-3x`}></i>
+                    ) : (
+                      <i className={`fab fa-${link.icon} fa-3x`}></i>
+                    )}
                   </a>
                 </li>
               ))}
