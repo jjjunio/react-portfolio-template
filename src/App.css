@@ -22,9 +22,10 @@ body {
   top: 4em;
 }
 .heading-background {
+  /* visibility: hidden; */
   position: fixed;
   opacity: 0.05;
-  font-size: 21em;
+  font-size: 25em;
   left: -0.1em;
   top: -0.5em;
   z-index: -100;
@@ -189,7 +190,7 @@ li .link:hover {
 
 .social__icons {
   padding-top: 1rem;
-  padding-bottom: 3rem;
+  padding-bottom: 12rem;
   padding-right: 1rem;
 }
 
@@ -318,6 +319,8 @@ li .link:hover {
   /* added to correct spacing for heading and socials */
   .social__container {
     margin-left: -40px;
+    display: flex;
+    flex-direction: row;
   }
 
   .social__icons {
@@ -414,6 +417,8 @@ li .link:hover {
   /* added to correct spacing for heading and socials */
   .social__container {
     margin-left: -40px;
+    display: flex;
+    flex-direction: row;
   }
 
   .social__icons {
@@ -433,7 +438,7 @@ li .link:hover {
 }
 
 /* Large screens ----------- */
-@media only screen and (min-width: 1824px) {
+@media only screen and (min-width: 1921px) {
   /* Styles */
 
   body {
@@ -512,9 +517,12 @@ li .link:hover {
   /* added to correct spacing for heading and socials */
   .social__container {
     margin-left: -40px;
+    display: flex;
+    flex-direction: row;
   }
 
   .social__icons {
+    display: flex;
     padding-top: 1rem;
     padding-bottom: 1rem;
     padding-right: 1rem;
