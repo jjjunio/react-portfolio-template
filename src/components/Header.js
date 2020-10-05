@@ -17,7 +17,7 @@ class Header extends Component {
           </h1>
         </header>
         <Fade bottom>
-          <p className="wave" className="header-title">
+          <p className="header-title">
             <span>{data.headerTagline[0]}</span>
             <span className="wave">{data.headerTagline[1]}</span>
             <br></br>
