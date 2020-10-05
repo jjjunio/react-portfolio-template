@@ -17,12 +17,15 @@ class Header extends Component {
           </h1>
         </header>
         <Fade bottom>
-          <p className="header-title">
-            {data.headerTagline[0]}
-            <br></br>
-            {data.headerTagline[1]}
+          <p className="wave" className="header-title">
+            <span>{data.headerTagline[0]}</span>
+            <span className="wave">{data.headerTagline[1]}</span>
             <br></br>
             {data.headerTagline[2]}
+            <br></br>
+            {data.headerTagline[3]}
+            <br></br>
+            {data.headerTagline[4]}
             <br></br>
             <button>
               <a href={`mailto:${data.contactEmail}`} rel="noopener noreferrer">

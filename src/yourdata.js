@@ -3,8 +3,11 @@ export default {
   //Change The Website Template
   name: "Jason Junio",
   headerTagline: [
+    "Hi! ",
+    "👋",
+
     //Line 1 For Header
-    "Hi 👋 I'm Jason Junio.",
+    " I'm Jason Junio.",
     //Line 2 For Header
     "Web Developer ",
     //Line 3 For Header
@@ -17,7 +20,7 @@ export default {
   aboutImage:
     "https://images.unsplash.com/photo-1521587765099-8835e7201186?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
   //Change This To Hide The Image of About Section (True Or False)
-  ShowAboutImage: false, //true or false (Change Here)
+  ShowAboutImage: true, //true or false (Change Here)
   // Change Projects Here
   projects: [
     {
