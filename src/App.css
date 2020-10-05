@@ -268,6 +268,9 @@ li .link:hover {
   }
   .about img {
     display: none;
+    width: 30em;
+    height: 30em;
+    object-fit: cover;
   }
   .about-content {
     left: 2em;
@@ -366,6 +369,9 @@ li .link:hover {
   }
   .about img {
     display: none;
+    width: 30em;
+    height: 30em;
+    object-fit: cover;
   }
   .about-content {
     left: 6em;
@@ -477,6 +483,10 @@ li .link:hover {
   }
   .about img {
     margin-left: 1em;
+    display: none;
+    width: 30em;
+    height: 30em;
+    object-fit: cover;
   }
 
   .work {

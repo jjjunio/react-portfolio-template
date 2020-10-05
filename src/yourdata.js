@@ -1,26 +1,26 @@
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
   //Change The Website Template
-  name: "Jason Junio",
+  name: "Julius Jason Junio",
   headerTagline: [
     "Hi! ",
     "👋",
-
     //Line 1 For Header
-    " I'm Jason Junio.",
+    " I'm Julius Jason Junio,",
     //Line 2 For Header
-    "Web Developer ",
+    "Web Developer",
     //Line 3 For Header
-    "from Montreal, Canada",
+    "from Montreal, Canada.",
   ],
   //Contact Email
-  contactEmail: "jjjunio@gmail.com",
+  contactEmail: "juliusjasonjunio@gmail.com",
   // Add Your About Text Here
-  abouttext: "",
+  abouttext: "I'm a web developer, basketball fan, constant learner, and an art enthusiast. See my previous work history on LinkedIn. Currently working on a few side projects including The Open Museum (a collection of open access  public domain images from museums in the United States and Europe). I am available for full-time work as a full-stack web developer. If you would like to collaborate, hire me, talk about our shared passion and what drives me, please reach out! I would be very much happy to (virtually) meet you!",
   aboutImage:
+    // "https://images.unsplash.com/photo-1559407020-328eb3b23a0a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
     "https://images.unsplash.com/photo-1521587765099-8835e7201186?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
   //Change This To Hide The Image of About Section (True Or False)
-  ShowAboutImage: true, //true or false (Change Here)
+  ShowAboutImage: false, //true or false (Change Here)
   // Change Projects Here
   projects: [
     {
@@ -36,7 +36,7 @@ export default {
     {
       id: 2, //DO NOT CHANGE THIS (Please)😅
       title: "Netflix Clone",
-      service: "Website Development",
+      service: "Web App",
       imageSrc:
         "https://images.unsplash.com/photo-1540224871915-bc8ffb782bdf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
       url: "https://netflix-clone-solokrew.web.app/",
@@ -44,7 +44,7 @@ export default {
     {
       id: 3, //DO NOT CHANGE THIS (Please)😅
       title: "Amazon Clone",
-      service: "Web Development",
+      service: "Web App",
       imageSrc:
         "https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80",
       url: "https://clone-a6f70.web.app/",
